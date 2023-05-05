@@ -1,5 +1,5 @@
 {
-  "id": "Greyhawk-Pathfinder-1e",
+  "id": "greyhawk-pathfinder-1e",
   "title": "Greyhawk and Homebrew Content for Pathfinder 1e",
   "description": "A simple module created to host a collection of Greyhawk content using Pathfinder 1e rules.",
   "authors": [
@@ -7,7 +7,7 @@
     "name": "Moniker"
     }
     ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "9",
     "verified": "10"
