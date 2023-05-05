@@ -22,7 +22,7 @@
       "module": "greyhawk-pathfinder-1e"
     }
   ],  
-  "manifest": "https://github.com/RobertoCurti/greyhawk-pathfinder-1e/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/RobertoCurti/greyhawk-pathfinder-1e/main/module.json",
   "download": "https://github.com/RobertoCurti/greyhawk-pathfinder-1e/releases/latest/download/module.zip",
   "readme": "https://github.com/RobertoCurti/greyhawk-pathfinder-1e/blob/main/README.md"
 }
