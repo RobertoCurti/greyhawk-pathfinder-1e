@@ -15,6 +15,7 @@
   "packs": [
     {
       "name": "Greyhawk-Attacks-and-Maneuvers",
+      "system": "pf1",
       "label": "Greyhawk: Attacks and Maneuvers",
       "path": "packs/gwattacksmaneuvers.db",
       "entity": "Item",
