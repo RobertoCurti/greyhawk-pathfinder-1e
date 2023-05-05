@@ -11,5 +11,14 @@
   "compatibility": {
     "minimum": "9",
     "verified": "10"
-  }
+  },  
+  "packs": [
+    {
+      "name": "Greyhawk: Attacks and Maneuvers",
+      "label": "Greyhawk: Attacks and Maneuvers",
+      "path": "packs/gwattacksmaneuvers.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    }
+  ]
 }
