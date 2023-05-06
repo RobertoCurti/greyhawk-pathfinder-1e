@@ -20,6 +20,14 @@
       "path": "packs/items/combat/gwattacksmaneuvers.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
+    }.
+    {
+      "name": "Greyhawk-Class-Features",
+      "system": "pf1",
+      "label": "Greyhawk: Class Fearures",
+      "path": "packs/items/class-features/gwclassfeatures.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
     }
   ],  
   "manifest": "https://raw.githubusercontent.com/RobertoCurti/greyhawk-pathfinder-1e/main/module.json",
