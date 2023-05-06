@@ -14,10 +14,74 @@
   },  
   "packs": [
     {
+      "name": "Greyhawk-Advanced-Bestiary",
+      "system": "pf1",
+      "label": "Greyhawk: Bestiary, Advanced",
+      "path": "packs/items/combat/gwadvanced.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Regular-Bestiary",
+      "system": "pf1",
+      "label": "Greyhawk: Bestiary, Regular",
+      "path": "packs/items/combat/gwregular.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Uniques-Bestiary",
+      "system": "pf1",
+      "label": "Greyhawk: Bestiary, Unique Creatures",
+      "path": "packs/items/combat/gwuniques.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-NPCs-Bestiary",
+      "system": "pf1",
+      "label": "Greyhawk: NPCs",
+      "path": "packs/items/combat/gwnpcs.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-PCs",
+      "system": "pf1",
+      "label": "Greyhawk: PCs",
+      "path": "packs/items/combat/gwpcs.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Companions-Summons",
+      "system": "pf1",
+      "label": "Greyhawk: Companions and Summons",
+      "path": "packs/items/combat/gwsummonscompanions.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
       "name": "Greyhawk-Attacks-and-Maneuvers",
       "system": "pf1",
       "label": "Greyhawk: Attacks and Maneuvers",
       "path": "packs/items/combat/gwattacksmaneuvers.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Buffs",
+      "system": "pf1",
+      "label": "Greyhawk: Buffs",
+      "path": "packs/items/combat/gwbuff.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Classes",
+      "system": "pf1",
+      "label": "Greyhawk: Classes",
+      "path": "packs/items/classes/gwclasses.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -28,12 +92,108 @@
       "path": "packs/items/class-features/gwclassfeatures.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
+    },    
+    {
+      "name": "Greyhawk-Feats",
+      "system": "pf1",
+      "label": "Greyhawk: Feats",
+      "path": "packs/items/combat/gwfeats.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
     },
     {
-      "name": "Greyhawk-Classes",
+      "name": "Greyhawk-Items",
       "system": "pf1",
-      "label": "Greyhawk: Classes",
-      "path": "packs/items/classes/gwclasses.db",
+      "label": "Greyhawk: Items",
+      "path": "packs/items/combat/gwitems.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Races",
+      "system": "pf1",
+      "label": "Greyhawk: Races",
+      "path": "packs/items/combat/gwraces.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Spells",
+      "system": "pf1",
+      "label": "Greyhawk: Spells",
+      "path": "packs/items/combat/gwspells.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Deities",
+      "system": "pf1",
+      "label": "Greyhawk: Deities",
+      "path": "packs/journals/combat/gwdeities.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Locations",
+      "system": "pf1",
+      "label": "Greyhawk: Locations",
+      "path": "packs/journals/combat/gwlocations.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Nations",
+      "system": "pf1",
+      "label": "Greyhawk: Nations",
+      "path": "packs/journals/combat/gwnations.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Pantheons",
+      "system": "pf1",
+      "label": "Greyhawk: Pantheons",
+      "path": "packs/journals/combat/gwpantheons.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Regions",
+      "system": "pf1",
+      "label": "Greyhawk: Regions",
+      "path": "packs/journals/combat/gwregions.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Macros",
+      "system": "pf1",
+      "label": "Greyhawk: Macros",
+      "path": "packs/macros/combat/gwmacros.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Tracks",
+      "system": "pf1",
+      "label": "Greyhawk: Tracks",
+      "path": "packs/playlists/combat/gwaudiotracks.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Scenes",
+      "system": "pf1",
+      "label": "Greyhawk: Scenes",
+      "path": "packs/scenes/combat/gwscenes.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-RollTables",
+      "system": "pf1",
+      "label": "Greyhawk: Roll Tables",
+      "path": "packs/tables/combat/gwrolltables.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
     }
