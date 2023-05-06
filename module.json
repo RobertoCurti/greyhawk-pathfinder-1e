@@ -28,6 +28,14 @@
       "path": "packs/items/class-features/gwclassfeatures.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Classes",
+      "system": "pf1",
+      "label": "Greyhawk: Classes",
+      "path": "packs/items/classes/gwclasses.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
     }
   ],  
   "manifest": "https://raw.githubusercontent.com/RobertoCurti/greyhawk-pathfinder-1e/main/module.json",
