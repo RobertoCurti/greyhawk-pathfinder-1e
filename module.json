@@ -20,7 +20,7 @@
       "path": "packs/items/combat/gwattacksmaneuvers.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
-    }.
+    },
     {
       "name": "Greyhawk-Class-Features",
       "system": "pf1",
