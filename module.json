@@ -7,7 +7,7 @@
     "name": "Moniker"
     }
     ],
-  "version": "0.1.1",
+  "version": "v0.1.1",
   "compatibility": {
     "minimum": "9",
     "verified": "10"
