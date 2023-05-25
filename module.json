@@ -17,7 +17,7 @@
       "name": "Greyhawk-Advanced-Bestiary",
       "system": "pf1",
       "label": "Greyhawk: Bestiary, Advanced",
-      "path": "packs/actors/gwadvanced.db",
+      "path": "packs/actors/gbwadvanced.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -25,7 +25,7 @@
       "name": "Greyhawk-Regular-Bestiary",
       "system": "pf1",
       "label": "Greyhawk: Bestiary, Regular",
-      "path": "packs/actors/gwregular.db",
+      "path": "packs/actors/gwbregular.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -33,7 +33,7 @@
       "name": "Greyhawk-Uniques-Bestiary",
       "system": "pf1",
       "label": "Greyhawk: Bestiary, Unique Creatures",
-      "path": "packs/actors/gwuniques.db",
+      "path": "packs/actors/gwbuniques.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -41,7 +41,7 @@
       "name": "Greyhawk-NPCs-Bestiary",
       "system": "pf1",
       "label": "Greyhawk: NPCs",
-      "path": "packs/actors/gwnpcs.db",
+      "path": "packs/actors/gwbnpcs.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -49,15 +49,23 @@
       "name": "Greyhawk-PCs",
       "system": "pf1",
       "label": "Greyhawk: PCs",
-      "path": "packs/actors/gwpcs.db",
+      "path": "packs/actors/gwbpcs.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
     {
-      "name": "Greyhawk-Companions-Summons",
+      "name": "Greyhawk-Companions",
       "system": "pf1",
-      "label": "Greyhawk: Companions and Summons",
-      "path": "packs/actors/gwsummonscompanions.db",
+      "label": "Greyhawk: Companions",
+      "path": "packs/actors/gwbcompanions.db",
+      "entity": "Actor",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Summons",
+      "system": "pf1",
+      "label": "Greyhawk: Summons",
+      "path": "packs/actors/gwbsummons.db",
       "entity": "Actor",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -73,7 +81,7 @@
       "name": "Greyhawk-Buffs",
       "system": "pf1",
       "label": "Greyhawk: Buffs",
-      "path": "packs/items/gwbuff.db",
+      "path": "packs/items/gwbuffs.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -118,10 +126,26 @@
       "module": "greyhawk-pathfinder-1e"
     },
     {
+      "name": "Greyhawk-Racial-Features",
+      "system": "pf1",
+      "label": "Greyhawk: Racial Features",
+      "path": "packs/items/gwracialfeatures.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
       "name": "Greyhawk-Spells",
       "system": "pf1",
       "label": "Greyhawk: Spells",
       "path": "packs/items/gwspells.db",
+      "entity": "Item",
+      "module": "greyhawk-pathfinder-1e"
+    },
+    {
+      "name": "Greyhawk-Universal-Abilities",
+      "system": "pf1",
+      "label": "Greyhawk: Universal Monster Abilities",
+      "path": "packs/items/gwuniversalabilities.db",
       "entity": "Item",
       "module": "greyhawk-pathfinder-1e"
     },
@@ -178,7 +202,7 @@
       "system": "pf1",
       "label": "Greyhawk: Tracks",
       "path": "packs/playlists/gwaudiotracks.db",
-      "entity": "Item",
+      "entity": "Playlist",
       "module": "greyhawk-pathfinder-1e"
     },
     {
